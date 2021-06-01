@@ -110,3 +110,7 @@ body.iswpak_color_highcontrast :is(input[type='submit'], input[type='submit'] sp
     letter-spacing: 3px;
 }
 
+/* Line-height */
+.iswpak_line-height_large, .iswpak_line-height_large * {
+    line-height: 3;
+}
