@@ -82,18 +82,18 @@ body.iswpak_color_highsaturation {
 }
 /* Coloration - High contrast */
 body.iswpak_color_highcontrast, body.iswpak_color_highcontrast * {
-    color: #000000 !important;
-    background: #ffffff !important;
+    color: #000 !important;
+    background-color: #fff !important;
 }
 body.iswpak_color_highcontrast a {
-    color: #000000 !important;
+    color: #000 !important;
 }
 body.iswpak_color_highcontrast :is(input, textarea) {
-    color: #000000 !important;
-    background: #ffffff !important;
-    border-color: #000000;
+    color: #000 !important;
+    background-color: #fff !important;
+    border-color: #000;
 }
 body.iswpak_color_highcontrast :is(input[type='submit'], input[type='submit'] span, button[type='submit'], button[type='submit'] span, [role="button"], [role="button"] span, button:not([aria-expanded])) {
-    color: #ffffff !important;
-    background: #000000 !important;
+    color: #fff !important;
+    background-color: #000 !important;
 }
