@@ -1,0 +1,20 @@
+/* Variables */
+:root {
+    --wpak-highlight-links-outline: 1px solid;
+    --wpak-highlight-links-outline-offset: 2px;
+    --wpak-font-large: 30px;
+    --wpak-coloration-dark-link-color: #EA80FC;
+    --wpak-coloration-dark-link-hover-color: #8b309a;
+    --wpak-coloration-dark-global-text-color: #CBCBCB;
+    --wpak-coloration-dark-global-bg-color: #1f1f1f;
+    --wpak-coloration-dark-input-text-color: #CBCBCB;
+    --wpak-coloration-dark-input-bg-color: #1C1C1E;
+    --wpak-coloration-dark-input-border-color: #B64FC8;
+    --wpak-coloration-dark-button-text-color: #CBCBCB;
+    --wpak-coloration-dark-button-text-hover-color: var(--wpak-coloration-dark-button-text-color);
+    --wpak-coloration-dark-button-bg-color: #B64FC8;
+    --wpak-coloration-dark-button-bg-hover-color: #8b309a;
+    --wpak-coloration-dark-image-filter: brightness(.8) contrast(1.2);
+    --wpak-coloration-low-saturation-filter: 40%;
+    --wpak-coloration-high-saturation-filter: 1.75;
+}
