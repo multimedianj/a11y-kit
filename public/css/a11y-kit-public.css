@@ -1,0 +1,99 @@
+/**
+ * A11y Kit
+ * Custom styles
+ */
+
+/* Variables */
+:root {
+    /* Highlight links */
+    --wpak-highlight-links-outline: 1px solid;
+    --wpak-highlight-links-outline-offset: 2px;
+    /* Font size */
+    --wpak-font-large: 30px;
+    /* Contrast */
+    --wpak-coloration-dark-link-color: #EA80FC;
+    --wpak-coloration-dark-global-text-color: #CBCBCB;
+    --wpak-coloration-dark-global-bg-color: #1f1f1f;
+    --wpak-coloration-dark-input-text-color: #CBCBCB;
+    --wpak-coloration-dark-input-bg-color: #1C1C1E;
+    --wpak-coloration-dark-input-border-color: #B64FC8;
+    --wpak-coloration-dark-button-text-color: #CBCBCB;
+    --wpak-coloration-dark-button-bg-color: #B64FC8;
+    --wpak-coloration-dark-image-filter: brightness(.8) contrast(1.2);
+    --wpak-coloration-low-saturation-filter: 40%;
+    --wpak-coloration-high-saturation-filter: 1.75;
+}
+
+/* Highlight links */
+a:focus {
+    outline: var(--wpak-highlight-links-outline) !important;
+    outline-offset: var(--wpak-highlight-links-outline-offset) !important;
+}
+
+/* Dyslexia */
+body.iswpak_dyslexia_comicsans :is(a, b, button, em, input, abbr, acronym, bdo, big, cite, dfn, kbd, label, q, samp, select, small, strong, sub, sup, textarea, time, tt, address, blockquote, dd, dl, dt, h1, h2, h3, h4, h5, h6, li, p) {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive !important;
+}
+body.iswpak_dyslexia_arial :is(a, b, button, em, input, abbr, acronym, bdo, big, cite, dfn, kbd, label, q, samp, select, small, strong, sub, sup, textarea, time, tt, address, blockquote, dd, dl, dt, h1, h2, h3, h4, h5, h6, li, p) {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+
+/* Fonts */
+/* Fonts - Large */
+body.iswpak_font_large * {
+    font-size: var(--wpak-font-large) !important;
+}
+
+
+/* Coloration */
+/* Coloration - Monochrome */
+body.iswpak_color_monochrome {
+    filter: grayscale(100%);
+    background: #ffffff;
+}
+/* Coloration - Dark mode */
+body.iswpak_color_dark, body.iswpak_color_dark * {
+    color: var(--wpak-coloration-dark-global-text-color) !important;
+    background: var(--wpak-coloration-dark-global-bg-color) !important;
+}
+body.iswpak_color_dark a {
+    color: var(--wpak-coloration-dark-link-color) !important;
+}
+body.iswpak_color_dark :is(input, textarea) {
+    color: var(--wpak-coloration-dark-input-text-color) !important;
+    background: var(--wpak-coloration-dark-input-bg-color) !important;
+    border-color: var(--wpak-coloration-dark-input-border-color);
+}
+body.iswpak_color_dark :is(input[type='submit'], input[type='submit'] span, button[type='submit'], button[type='submit'] span, [role="button"], [role="button"] span, button:not([aria-expanded])) {
+    color: var(--wpak-coloration-dark-button-text-color) !important;
+    background: var(--wpak-coloration-dark-button-bg-color) !important;
+}
+body.iswpak_color_dark img {
+    filter: var(--wpak-coloration-dark-image-filter);
+}
+/* Coloration - Low saturation */
+.iswpak_color_lowsaturation {
+    filter: saturate(var(--wpak-coloration-low-saturation-filter));
+}
+/* Coloration - High saturation */
+body.iswpak_color_highsaturation {
+    filter: contrast(var(--wpak-coloration-high-saturation-filter));
+}
+/* Coloration - High contrast */
+body.iswpak_color_highcontrast, body.iswpak_color_highcontrast * {
+    color: #000000 !important;
+    background: #ffffff !important;
+}
+body.iswpak_color_highcontrast a {
+    color: #000000 !important;
+}
+body.iswpak_color_highcontrast :is(input, textarea) {
+    color: #000000 !important;
+    background: #ffffff !important;
+    border-color: #000000;
+}
+body.iswpak_color_highcontrast :is(input[type='submit'], input[type='submit'] span, button[type='submit'], button[type='submit'] span, [role="button"], [role="button"] span, button:not([aria-expanded])) {
+    color: #ffffff !important;
+    background: #000000 !important;
+}
