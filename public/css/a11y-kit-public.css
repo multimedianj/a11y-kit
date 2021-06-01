@@ -104,3 +104,9 @@ body.iswpak_color_highcontrast :is(input[type='submit'], input[type='submit'] sp
     color: #fff !important;
     background-color: #000 !important;
 }
+
+/* Letter-spacing */
+.iswpak_letter-spacing_large, .iswpak_letter-spacing_large * {
+    letter-spacing: 3px;
+}
+
