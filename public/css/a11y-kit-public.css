@@ -50,24 +50,31 @@ body.iswpak_font_large * {
 /* Coloration - Monochrome */
 body.iswpak_color_monochrome {
     filter: grayscale(100%);
-    background: #ffffff;
+    background-color: #fff;
 }
 /* Coloration - Dark mode */
 body.iswpak_color_dark, body.iswpak_color_dark * {
     color: var(--wpak-coloration-dark-global-text-color) !important;
-    background: var(--wpak-coloration-dark-global-bg-color) !important;
+    background-color: var(--wpak-coloration-dark-global-bg-color) !important;
 }
 body.iswpak_color_dark a {
     color: var(--wpak-coloration-dark-link-color) !important;
 }
+body.iswpak_color_dark a:hover {
+    color: var(--wpak-coloration-dark-link-hover-color) !important;
+}
 body.iswpak_color_dark :is(input, textarea) {
     color: var(--wpak-coloration-dark-input-text-color) !important;
-    background: var(--wpak-coloration-dark-input-bg-color) !important;
+    background-color: var(--wpak-coloration-dark-input-bg-color) !important;
     border-color: var(--wpak-coloration-dark-input-border-color);
 }
 body.iswpak_color_dark :is(input[type='submit'], input[type='submit'] span, button[type='submit'], button[type='submit'] span, [role="button"], [role="button"] span, button:not([aria-expanded])) {
     color: var(--wpak-coloration-dark-button-text-color) !important;
-    background: var(--wpak-coloration-dark-button-bg-color) !important;
+    background-color: var(--wpak-coloration-dark-button-bg-color) !important;
+}
+body.iswpak_color_dark :is(input[type='submit']:hover, button[type='submit']:hover, button[type='submit']:hover span, [role="button"]:hover, [role="button"]:hover span, button:not([aria-expanded]):hover) {
+    color: var(--wpak-coloration-dark-button-text-hover-color) !important;
+    background-color: var(--wpak-coloration-dark-button-bg-hover-color) !important;
 }
 body.iswpak_color_dark img {
     filter: var(--wpak-coloration-dark-image-filter);
