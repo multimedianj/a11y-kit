@@ -69,3 +69,8 @@ e.g.
 
 = 0.0.1 =
 * Initial commit
+
+= 0.0.2 =
+* Add a better documentation to the usability of the plugin
+* Update the "dark mode" styles
+* Update the "high contrast" styles
