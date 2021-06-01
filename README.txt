@@ -39,6 +39,20 @@ You can use the field for the title to add HTML code. With HTML code, it is poss
 * An image: **<img src="link_of_your_image.png" alt="name_of_property" />**
 * An icon from FontAwesome or any library you want to include: **<i class="fas fa-adjust"></i>**
 
+= Suggested FontAwesome icons =
+Here is a list of the suggested icons to use for each pre-configured accessibility settings.
+
+* Coloration: **<i class="fas fa-adjust" title="Change the coloration of the site"></i>**
+* Font-size: **<i class="fas fa-font" title="Change the font-size of the site"></i>**
+* Font-family: **<i class="fas fa-pencil-alt" title="Change the font-family of the site"></i>**
+* Letter-spacing: **<i class="fas fa-text-width" title="Change the letter-spacing of the site"></i>**
+* Line-height: **<i class="fas fa-text-height" title="Change the line-height of the site"></i>**
+* Reset button: **<i class="fas fa-undo" title="Reset all the accessibility configurations"></i>**
+
+**EXTRA**
+If you want to add a link to your accessibility statement page, we recommend using this icon that displays perfectly :
+* **<i class="fas fa-child" title="Go to the accessibility statement page"></i>**
+
 = Overwritte accessibility settings (styles) =
 In the plugin directory, there's a file **SAMPLE/style-a11y.css** that contains all the CSS variables used to style the different accessibility settings of the plugin. It is possible to overwritte those variables by adding this file to the root of your theme.
 
