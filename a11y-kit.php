@@ -14,7 +14,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       A11y Kit
- * Plugin URI:        https://wpinclusion.com/a11y-kit
+ * Plugin URI:        https://wpinclusion.com/plugins/a11y-kit
  * Description:       Make accessibility a part of your WordPress site.
  * Version:           1.0.0
  * Author:            WP inclusion
