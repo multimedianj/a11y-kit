@@ -56,6 +56,22 @@ Here is a list of the suggested icons to use for each pre-configured accessibili
 If you want to add a link to your accessibility statement page, we recommend using this icon that displays perfectly :
 * **<i class="fas fa-child" title="Go to the accessibility statement page"></i>**
 
+= Import a pre-generated menu =
+To import a pre-generated menu with already pre-configured accessibility settings, follow the instructions below.
+
+1. First, download the file **menu-a11y.json** on your computer, available in the folder **SAMPLE** of the plugin
+1. Install the plugin **Export Import Menus", available [here](https://wordpress.org/plugins/export-import-menus)
+1. Activate the plugin
+1. Go to **Appearance > Export/Import Menus**
+1. Click on the tab **Import Menus**
+1. Click on **Choose a file** and import the **menu-a11y.json** file you just downloaded on your computer
+1. On the "Menu Name" field, feel free to name your menu (ex.: A11y topbar menu)
+1. Click on the "Import Menus" button
+1. Validate in **Appearance > Menus" that your menu has been imported correctly
+
+**EXTRA**
+1. If you want to use FontAwesome icons, install the plugin FontAwesome, available [here](https://wordpress.org/plugins/font-awesome)
+
 = Overwritte accessibility settings (styles) =
 In the plugin directory, there's a file **SAMPLE/style-a11y.css** that contains all the CSS variables used to style the different accessibility settings of the plugin. It is possible to overwritte those variables by adding this file to the root of your theme.
 
@@ -63,7 +79,7 @@ In the plugin directory, there's a file **SAMPLE/style-a11y.css** that contains 
 1. You add the file to the root of your theme (or child-theme)
 1. You add this code to your style.css **@import "style-a11y.css";**
 
-This plugin was created and is maintained by WP inclusion, a [glossary of Web accessibility terminologies] (https://wpinclusion.com).
+This plugin was created and is maintained by WP inclusion, a [glossary of Web accessibility terminologies](https://wpinclusion.com).
 
 = Compatibility =
 
@@ -91,3 +107,7 @@ e.g.
 * Add a better documentation to the usability of the plugin
 * Update the "dark mode" styles
 * Update the "high contrast" styles
+
+= 0.0.3 =
+* Export pre-generated menu in JSON file and add it as a SAMPLE
+* Documentation to import a pre-generated menu with FontAwesome icons
