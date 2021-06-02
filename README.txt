@@ -34,6 +34,9 @@ Dyslexia
 * "wpak_dyslexia_comicsans" (Comic Sans font-family)
 * "wpak_dyslexia_arial" (Arial font-family)
 
+Reset button
+* "wpakReset" (reset all the filters)
+
 = Add an icon instead of text =
 You can use the field for the title to add HTML code. With HTML code, it is possible to add :
 * An image: **<img src="link_of_your_image.png" alt="name_of_property" />**
